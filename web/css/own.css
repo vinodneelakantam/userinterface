@@ -1,0 +1,56 @@
+.logo{
+    background-color: wheat;
+}
+
+.menu{
+    background-color: red;
+}
+
+
+
+.banner2{
+    background-color: green;
+}
+
+.data1{
+    background-color: gray;
+}
+
+.data2{
+    background-color: teal;
+}
+
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1900px) {
+        .banner1{
+    background-color: hotpink;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .banner1{
+    background-color: green;
+}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
+# Bootstrap
